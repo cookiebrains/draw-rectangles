@@ -1,0 +1,23 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <style>
+        body {
+            margin: 0px;
+            padding: 0px;
+        }
+    </style>
+    <script src="draw-rectangles.js"></script>
+    <script type="text/javascript">
+        function main() {
+            const angle = 2;
+            const width = 800;
+            const height = 800;
+            drawRectangles(document.getElementById('myCanvas'), angle, width, height);
+        }
+    </script>
+</head>
+<body onload="main()">
+    <canvas id="myCanvas"></canvas>
+</body>
+</html>
